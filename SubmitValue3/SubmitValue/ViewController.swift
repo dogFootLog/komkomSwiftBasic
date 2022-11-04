@@ -33,17 +33,21 @@ class ViewController: UIViewController {
         intervalText.text = "\(value)분마다"
     }
     
-    @IBAction func onSubmit(_ sender: Any) {
-        // VC2의 인스턴스 생성 과정
-        guard let rvc = storyboard?.instantiateViewController(withIdentifier: "RVC") as? ResultViewController else {
+    @IBAction func onPerformSegue(_ sender: Any) {
+        performSegue(withIdentifier: "ManualSubmit", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // 목적지 뷰 컨트롤러 인스턴스 읽어오기
+        let dest = segue.destination
+        
+        guard let rvc = dest as? ResultViewController else {
             return
         }
         
         rvc.paramEmail = email.text!
         rvc.paramUpdate = isUpdate.isOn
         rvc.paramInterval = Int(interval.value)
-        
-        present(rvc, animated: true)
     }
 }
 
