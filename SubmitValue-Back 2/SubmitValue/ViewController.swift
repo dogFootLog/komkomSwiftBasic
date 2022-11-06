@@ -32,5 +32,11 @@ class ViewController: UIViewController {
         if let email = ud.string(forKey: "email") {
             resultEmail.text = email
         }
+        
+        let update = ud.bool(forKey: "isUpdate")
+        resultUpdate.text = (update ? "자동갱신" : "자동갱신안함")
+        
+        let interval = ud.double(forKey: "interval")
+        resultInterval.text = "\(Int(interval))분마다"
     }
 }
