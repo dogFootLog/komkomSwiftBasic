@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F45DC319-20DF-4C96-97B7-47256D0147EC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Delegate-ImagePicker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91 - 3b0781ccb3f01142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Delegate_ImagePicker.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Delegate_ImagePicker.ViewController"
+                  moduleName = "Delegate-ImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhee/iOS/komkomSwiftBasic/Delegate-ImagePicker/Delegate-ImagePicker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91 - d7a27521c3fed45f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Delegate_ImagePicker.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Delegate_ImagePicker.ViewController"
+                  moduleName = "Delegate-ImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhee/iOS/komkomSwiftBasic/Delegate-ImagePicker/Delegate-ImagePicker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91 - e336ccfc8a7fe6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Delegate_ImagePicker.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Delegate_ImagePicker.ViewController&gt;"
+                  moduleName = "Delegate-ImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhee/iOS/komkomSwiftBasic/Delegate-ImagePicker/Delegate-ImagePicker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91 - 685f73bce3b9ec1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Delegate_ImagePicker.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Delegate_ImagePicker.ViewController&gt;"
+                  moduleName = "Delegate-ImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhee/iOS/komkomSwiftBasic/Delegate-ImagePicker/Delegate-ImagePicker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "6D522542-75CF-48D0-B2FB-A082CB9D5D91 - 255076ef0d546e93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Delegate_ImagePicker.ViewController.__deallocating_deinit"
+                  moduleName = "Delegate-ImagePicker"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suhee/iOS/komkomSwiftBasic/Delegate-ImagePicker/Delegate-ImagePicker/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5EF20D9-6A1D-482A-954A-5D65FEF3EEF2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Delegate-ImagePicker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCA80D7C-2D94-406C-8647-A683214CE9C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Delegate-ImagePicker/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
