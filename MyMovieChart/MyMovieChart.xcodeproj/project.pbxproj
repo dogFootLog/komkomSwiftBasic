@@ -14,6 +14,8 @@
 		CE8D5F2C2919421700ED67E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8D5F2B2919421700ED67E8 /* Assets.xcassets */; };
 		CE8D5F2F2919421700ED67E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8D5F2D2919421700ED67E8 /* LaunchScreen.storyboard */; };
 		CE8D5F372919429900ED67E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F362919429900ED67E8 /* ListViewController.swift */; };
+		CE8D5F3929197EC300ED67E8 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F3829197EC300ED67E8 /* MovieVO.swift */; };
+		CE8D5F3B291A70DB00ED67E8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE8D5F2E2919421700ED67E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8D5F302919421700ED67E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8D5F362919429900ED67E8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CE8D5F3829197EC300ED67E8 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
+		CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				CE8D5F242919421700ED67E8 /* SceneDelegate.swift */,
 				CE8D5F262919421700ED67E8 /* ViewController.swift */,
 				CE8D5F282919421700ED67E8 /* Main.storyboard */,
+				CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */,
+				CE8D5F3829197EC300ED67E8 /* MovieVO.swift */,
 				CE8D5F362919429900ED67E8 /* ListViewController.swift */,
 				CE8D5F2B2919421700ED67E8 /* Assets.xcassets */,
 				CE8D5F2D2919421700ED67E8 /* LaunchScreen.storyboard */,
@@ -143,8 +149,10 @@
 			files = (
 				CE8D5F272919421700ED67E8 /* ViewController.swift in Sources */,
 				CE8D5F232919421700ED67E8 /* AppDelegate.swift in Sources */,
+				CE8D5F3B291A70DB00ED67E8 /* MovieCell.swift in Sources */,
 				CE8D5F372919429900ED67E8 /* ListViewController.swift in Sources */,
 				CE8D5F252919421700ED67E8 /* SceneDelegate.swift in Sources */,
+				CE8D5F3929197EC300ED67E8 /* MovieVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
