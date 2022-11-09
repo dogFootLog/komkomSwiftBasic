@@ -55,6 +55,7 @@ class ListViewController: UITableViewController {
                 mvo.description = r["genreNames"] as? String
                 mvo.detail = r["linkUrl"] as? String
                 mvo.rating = (r["ratingAverage"] as! NSString).doubleValue
+                mvo.thumbnail = r["thumbnailImage"] as? String
                 
                 let url: URL! = URL(string: mvo.thumbnail!)
                 let imageData = try! Data(contentsOf: url)
@@ -69,6 +70,20 @@ class ListViewController: UITableViewController {
             }
         } catch {
             NSLog("Parse Error ******")
+        }
+    }
+    
+    func getThumbnailImage(_ index: Int) -> UIImage {
+        let mvo = self.list[index]
+        
+        if let savedImage = mvo.thumbnailImage {
+            return savedImage
+        } else {
+            let url: URL! = URL(string: mvo.thumbnail!)
+            let imageData = try! Data(contentsOf: url)
+            mvo.thumbnailImage = UIImage(data: imageData)
+            
+            return mvo.thumbnailImage!
         }
     }
     
@@ -109,7 +124,11 @@ class ListViewController: UITableViewController {
         cell.desc?.text = row.description
         cell.opendate?.text = row.opendate
         cell.rating?.text = "\(row.rating!)"
-        cell.thumbnail.image = row.thumbnailImage
+        
+        DispatchQueue.main.async {
+            NSLog("비동기 방식으로 실행되는 부분입니다.")
+            cell.thumbnail.image = self.getThumbnailImage(indexPath.row)
+        }
         
         return cell
     }
