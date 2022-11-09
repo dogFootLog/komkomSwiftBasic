@@ -7,39 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE414A6D291ABE1600A08F08 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE414A6A291ABE1600A08F08 /* darknight.jpg */; };
-		CE414A6E291ABE1600A08F08 /* secret.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE414A6B291ABE1600A08F08 /* secret.jpg */; };
-		CE414A6F291ABE1600A08F08 /* rain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE414A6C291ABE1600A08F08 /* rain.jpg */; };
-		CE8D5F232919421700ED67E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F222919421700ED67E8 /* AppDelegate.swift */; };
-		CE8D5F252919421700ED67E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F242919421700ED67E8 /* SceneDelegate.swift */; };
-		CE8D5F272919421700ED67E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F262919421700ED67E8 /* ViewController.swift */; };
-		CE8D5F2A2919421700ED67E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8D5F282919421700ED67E8 /* Main.storyboard */; };
-		CE8D5F2C2919421700ED67E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8D5F2B2919421700ED67E8 /* Assets.xcassets */; };
-		CE8D5F2F2919421700ED67E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8D5F2D2919421700ED67E8 /* LaunchScreen.storyboard */; };
-		CE8D5F372919429900ED67E8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F362919429900ED67E8 /* ListViewController.swift */; };
-		CE8D5F3929197EC300ED67E8 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F3829197EC300ED67E8 /* MovieVO.swift */; };
-		CE8D5F3B291A70DB00ED67E8 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */; };
+		CE414A7D291AC1CB00A08F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414A7C291AC1CB00A08F08 /* AppDelegate.swift */; };
+		CE414A7F291AC1CB00A08F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414A7E291AC1CB00A08F08 /* SceneDelegate.swift */; };
+		CE414A84291AC1CB00A08F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE414A82291AC1CB00A08F08 /* Main.storyboard */; };
+		CE414A86291AC1CB00A08F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE414A85291AC1CB00A08F08 /* Assets.xcassets */; };
+		CE414A89291AC1CB00A08F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE414A87291AC1CB00A08F08 /* LaunchScreen.storyboard */; };
+		CE414A91291AC59100A08F08 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE414A90291AC59100A08F08 /* ListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE414A6A291ABE1600A08F08 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
-		CE414A6B291ABE1600A08F08 /* secret.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = secret.jpg; sourceTree = "<group>"; };
-		CE414A6C291ABE1600A08F08 /* rain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rain.jpg; sourceTree = "<group>"; };
-		CE8D5F1F2919421700ED67E8 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8D5F222919421700ED67E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE8D5F242919421700ED67E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE8D5F262919421700ED67E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE8D5F292919421700ED67E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE8D5F2B2919421700ED67E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CE8D5F2E2919421700ED67E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CE8D5F302919421700ED67E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE8D5F362919429900ED67E8 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		CE8D5F3829197EC300ED67E8 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
-		CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		CE414A79291AC1CB00A08F08 /* Table-CellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table-CellHeight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE414A7C291AC1CB00A08F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE414A7E291AC1CB00A08F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE414A83291AC1CB00A08F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE414A85291AC1CB00A08F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE414A88291AC1CB00A08F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE414A8A291AC1CB00A08F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE414A90291AC59100A08F08 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE8D5F1C2919421700ED67E8 /* Frameworks */ = {
+		CE414A76291AC1CB00A08F08 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,86 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE414A69291ABDF700A08F08 /* Resource */ = {
+		CE414A70291AC1CB00A08F08 = {
 			isa = PBXGroup;
 			children = (
-				CE414A6A291ABE1600A08F08 /* darknight.jpg */,
-				CE414A6C291ABE1600A08F08 /* rain.jpg */,
-				CE414A6B291ABE1600A08F08 /* secret.jpg */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		CE8D5F162919421700ED67E8 = {
-			isa = PBXGroup;
-			children = (
-				CE8D5F212919421700ED67E8 /* MyMovieChart */,
-				CE8D5F202919421700ED67E8 /* Products */,
+				CE414A7B291AC1CB00A08F08 /* Table-CellHeight */,
+				CE414A7A291AC1CB00A08F08 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE8D5F202919421700ED67E8 /* Products */ = {
+		CE414A7A291AC1CB00A08F08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE8D5F1F2919421700ED67E8 /* MyMovieChart.app */,
+				CE414A79291AC1CB00A08F08 /* Table-CellHeight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE8D5F212919421700ED67E8 /* MyMovieChart */ = {
+		CE414A7B291AC1CB00A08F08 /* Table-CellHeight */ = {
 			isa = PBXGroup;
 			children = (
-				CE414A69291ABDF700A08F08 /* Resource */,
-				CE8D5F222919421700ED67E8 /* AppDelegate.swift */,
-				CE8D5F242919421700ED67E8 /* SceneDelegate.swift */,
-				CE8D5F262919421700ED67E8 /* ViewController.swift */,
-				CE8D5F282919421700ED67E8 /* Main.storyboard */,
-				CE8D5F3A291A70DB00ED67E8 /* MovieCell.swift */,
-				CE8D5F3829197EC300ED67E8 /* MovieVO.swift */,
-				CE8D5F362919429900ED67E8 /* ListViewController.swift */,
-				CE8D5F2B2919421700ED67E8 /* Assets.xcassets */,
-				CE8D5F2D2919421700ED67E8 /* LaunchScreen.storyboard */,
-				CE8D5F302919421700ED67E8 /* Info.plist */,
+				CE414A7C291AC1CB00A08F08 /* AppDelegate.swift */,
+				CE414A7E291AC1CB00A08F08 /* SceneDelegate.swift */,
+				CE414A82291AC1CB00A08F08 /* Main.storyboard */,
+				CE414A90291AC59100A08F08 /* ListViewController.swift */,
+				CE414A85291AC1CB00A08F08 /* Assets.xcassets */,
+				CE414A87291AC1CB00A08F08 /* LaunchScreen.storyboard */,
+				CE414A8A291AC1CB00A08F08 /* Info.plist */,
 			);
-			path = MyMovieChart;
+			path = "Table-CellHeight";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE8D5F1E2919421700ED67E8 /* MyMovieChart */ = {
+		CE414A78291AC1CB00A08F08 /* Table-CellHeight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8D5F332919421700ED67E8 /* Build configuration list for PBXNativeTarget "MyMovieChart" */;
+			buildConfigurationList = CE414A8D291AC1CB00A08F08 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */;
 			buildPhases = (
-				CE8D5F1B2919421700ED67E8 /* Sources */,
-				CE8D5F1C2919421700ED67E8 /* Frameworks */,
-				CE8D5F1D2919421700ED67E8 /* Resources */,
+				CE414A75291AC1CB00A08F08 /* Sources */,
+				CE414A76291AC1CB00A08F08 /* Frameworks */,
+				CE414A77291AC1CB00A08F08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyMovieChart;
-			productName = MyMovieChart;
-			productReference = CE8D5F1F2919421700ED67E8 /* MyMovieChart.app */;
+			name = "Table-CellHeight";
+			productName = "Table-CellHeight";
+			productReference = CE414A79291AC1CB00A08F08 /* Table-CellHeight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE8D5F172919421700ED67E8 /* Project object */ = {
+		CE414A71291AC1CB00A08F08 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					CE8D5F1E2919421700ED67E8 = {
+					CE414A78291AC1CB00A08F08 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = CE8D5F1A2919421700ED67E8 /* Build configuration list for PBXProject "MyMovieChart" */;
+			buildConfigurationList = CE414A74291AC1CB00A08F08 /* Build configuration list for PBXProject "Table-CellHeight" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,61 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CE8D5F162919421700ED67E8;
-			productRefGroup = CE8D5F202919421700ED67E8 /* Products */;
+			mainGroup = CE414A70291AC1CB00A08F08;
+			productRefGroup = CE414A7A291AC1CB00A08F08 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE8D5F1E2919421700ED67E8 /* MyMovieChart */,
+				CE414A78291AC1CB00A08F08 /* Table-CellHeight */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE8D5F1D2919421700ED67E8 /* Resources */ = {
+		CE414A77291AC1CB00A08F08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE414A6D291ABE1600A08F08 /* darknight.jpg in Resources */,
-				CE414A6F291ABE1600A08F08 /* rain.jpg in Resources */,
-				CE8D5F2F2919421700ED67E8 /* LaunchScreen.storyboard in Resources */,
-				CE8D5F2C2919421700ED67E8 /* Assets.xcassets in Resources */,
-				CE8D5F2A2919421700ED67E8 /* Main.storyboard in Resources */,
-				CE414A6E291ABE1600A08F08 /* secret.jpg in Resources */,
+				CE414A89291AC1CB00A08F08 /* LaunchScreen.storyboard in Resources */,
+				CE414A86291AC1CB00A08F08 /* Assets.xcassets in Resources */,
+				CE414A84291AC1CB00A08F08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE8D5F1B2919421700ED67E8 /* Sources */ = {
+		CE414A75291AC1CB00A08F08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8D5F272919421700ED67E8 /* ViewController.swift in Sources */,
-				CE8D5F232919421700ED67E8 /* AppDelegate.swift in Sources */,
-				CE8D5F3B291A70DB00ED67E8 /* MovieCell.swift in Sources */,
-				CE8D5F372919429900ED67E8 /* ListViewController.swift in Sources */,
-				CE8D5F252919421700ED67E8 /* SceneDelegate.swift in Sources */,
-				CE8D5F3929197EC300ED67E8 /* MovieVO.swift in Sources */,
+				CE414A7D291AC1CB00A08F08 /* AppDelegate.swift in Sources */,
+				CE414A7F291AC1CB00A08F08 /* SceneDelegate.swift in Sources */,
+				CE414A91291AC59100A08F08 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE8D5F282919421700ED67E8 /* Main.storyboard */ = {
+		CE414A82291AC1CB00A08F08 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE8D5F292919421700ED67E8 /* Base */,
+				CE414A83291AC1CB00A08F08 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CE8D5F2D2919421700ED67E8 /* LaunchScreen.storyboard */ = {
+		CE414A87291AC1CB00A08F08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE8D5F2E2919421700ED67E8 /* Base */,
+				CE414A88291AC1CB00A08F08 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE8D5F312919421700ED67E8 /* Debug */ = {
+		CE414A8B291AC1CB00A08F08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		CE8D5F322919421700ED67E8 /* Release */ = {
+		CE414A8C291AC1CB00A08F08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -312,7 +280,7 @@
 			};
 			name = Release;
 		};
-		CE8D5F342919421700ED67E8 /* Debug */ = {
+		CE414A8E291AC1CB00A08F08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -320,7 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -331,7 +299,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +307,7 @@
 			};
 			name = Debug;
 		};
-		CE8D5F352919421700ED67E8 /* Release */ = {
+		CE414A8F291AC1CB00A08F08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -347,7 +315,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyMovieChart/Info.plist;
+				INFOPLIST_FILE = "Table-CellHeight/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MyMovieChart;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Table-CellHeight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -369,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE8D5F1A2919421700ED67E8 /* Build configuration list for PBXProject "MyMovieChart" */ = {
+		CE414A74291AC1CB00A08F08 /* Build configuration list for PBXProject "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8D5F312919421700ED67E8 /* Debug */,
-				CE8D5F322919421700ED67E8 /* Release */,
+				CE414A8B291AC1CB00A08F08 /* Debug */,
+				CE414A8C291AC1CB00A08F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8D5F332919421700ED67E8 /* Build configuration list for PBXNativeTarget "MyMovieChart" */ = {
+		CE414A8D291AC1CB00A08F08 /* Build configuration list for PBXNativeTarget "Table-CellHeight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8D5F342919421700ED67E8 /* Debug */,
-				CE8D5F352919421700ED67E8 /* Release */,
+				CE414A8E291AC1CB00A08F08 /* Debug */,
+				CE414A8F291AC1CB00A08F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE8D5F172919421700ED67E8 /* Project object */;
+	rootObject = CE414A71291AC1CB00A08F08 /* Project object */;
 }
